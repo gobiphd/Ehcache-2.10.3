@@ -24,6 +24,7 @@ public class CacheTest {
 		coreCache.put(String.valueOf(4), "One4");
 		
 		System.out.println("First : "+coreCache.get(String.valueOf(1)));
+		System.out.println("Second : "+coreCache.get(String.valueOf(2)));
 		
 		/*while (coreCache.iterator().hasNext()) {
 			System.out.println(coreCache.iterator().next());
