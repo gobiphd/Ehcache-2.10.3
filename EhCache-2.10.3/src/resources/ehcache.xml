@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ehcache>
+
+<cache name="coreCache" 
+		maxEntriesLocalHeap="10000" 
+		maxEntriesLocalDisk="1000" 
+		eternal="true"   
+		memoryStoreEvictionPolicy="LFU" />
+
+
+<cache name="baseCache" 
+		maxEntriesLocalHeap="10000" 
+		maxEntriesLocalDisk="1000" 
+		eternal="true" 
+		memoryStoreEvictionPolicy="LFU"/>
+</ehcache>
